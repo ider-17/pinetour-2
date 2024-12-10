@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #D8E4E9;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+.li {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.47px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 1204px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100px;
+    object-fit: contain;
+}
+
+.sect {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.section-1 {
+
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 40.27%), linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2)), url(Image.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-1 {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    margin: 0;
+    padding-top: 170px;
+}
+
+.font {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h2 {
+    font-size: 250px;
+    font-weight: 400;
+    line-height: 250px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    margin: 0;
+}
+
+.but {
+    padding: 13px;
+    border-radius: 24px;
+    border: 0;
+}
+
+.sec2 {
+    height: 500px;
+    width: 100%;
+}
+
+#op {
+    background-color: #D8E4E9;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    z-index: -2;
+}
+
+.pic {
+    height: 370px;
+    width: 275px;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 44px;
+    background-size: cover;
+    margin: 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#pic1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/9411/7af0/fae2d95b54ef6842a38934433c1d99d7?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j6YiKqaPVJ7vUcEjHiCk8V5APzkPes5eI7upqMvcN0CnFP1j7-Hh9GveYN~6h2O-gnh3y2YoUp1AmdTyzBZQTt7~tFsNqiOlYmFLqd14uNUROcJzWkwSlnNXZ2L0~LvU634vjuyQb~h-lAYMOZJpU7BnCmukya6gNWYQGqE3xfXPF9EPWYMETVdRbP2VbihH6hzi7ZLO0BpY9fLlFJJpZts17B6hOa8ssOdUQm~sPVvtOWlepE1icJcTMuYNlNUTqMgJykJAx8JOy3LpphzVFOWWh64QKoKOpFW2bTnVzAN19u~Et2TvhSpU2~4456PXvvkwuhZsHA2OsOwbrPcHfg__);
+}
+
+#pic2 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/e124/d31b/4b7edc8a8926233d613c437affc8b621?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n~2fkiB1rZgiEdzCMha9Uo8-43DRcDCKmA-WBIUIDM~AsTGrws2kqku6K9nFBLdyenp~YpB-86R7PU5e0sZYZnropDZ1rNByXMOY3LBF8NslbdpzPeGpXMSLRXRtNFDvcGoOEImV8xCUtaHJAyu9K1~kC9F0ag~3SBYTlHYzozLFIEpoS5CPbpfhe7tKyjkwW5fhwd~BuOQxV2zs0x-edzcpr~tT0mCUly9NE30IZIG3KbwoT0Is5WhbgKpHQRQCrZDJ5PzBdlVeTpqV1Zy0ErgMPHJBkevID5~ucRYoSMMuRe2jekzqDylXxEtsLtcxNKP-qN0Wrxck-nxx68YTpQ__);
+}
+
+#pic3 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/a4d6/0416/d42b9ac033e9ea4869926a93ad64d227?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GxyJ~y1qLLP~KhdsJkV9oleyKhANT0UUIOdLaOFMIwyeUSIQnMAivl41kfeRa0tJ5aDTPZM48hTZrEHaXa8M53y2PMX-zJT2BKp41jh6TrFU-tM3BuEn6grnjRp8ehbXVHlgB2GJwJ08YqBjBkpIEwM-LayF4EKXmXEfwGYRi6WkKhyJuA3mw7fjLZ0SHslRq4nt72J2z06N3KmIwXAScsOII-H5A9A9jPqHc4~5V0oICuQTaomQpfSxCfIJuGJL~U8aqm2-EztxZKX01ePx9d-05IWaTYoecYBtCCetDL~NjWVRWq8iYPe-xR-kg2WYsfSvmFCV39aUQjL28sbXVQ__);
+}
+
+#pic4 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/d2b9/7a2b/78cccaa3f6ec592813187ea25729681e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HL8whnhAzG46qIxI9tolF~eTqvoqIjC1hsj7~YHC2lnOYnNpcGXHx~wDCbnvNtdz7C0La8zO7P1nv2bAtYhX1WBP~Vw5sGTcIKr1pebPiElvAw~uysK3GAGoAMITSBygflFHSSiQ95eVd6RAjDmKwDt~soL18PDfo0MXGY90i-i15wwnmtctbiIseUbxCvGuzJzgXxWq06pbeNwd9RjE9ckdE3w9kXRbmKCED58cPmar27niBiun0zEakVJynPNaIynC7aYRoIbocEHwnVfzHkwAfGdJnkHcv7fw5IYG82orHRIVpwt7AFb8h7f2E1pu9GD9DXOSHAhDPS4Lzo0Gzw__);
+}
+
+.border1 {
+    position: absolute;
+    background-color: #83afcb;
+    top: -10px;
+    left: -10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+    z-index: -1;
+}
+
+.border2 {
+    position: absolute;
+    box-shadow: 8px 8px 0px 0px #29728B40;
+    box-shadow: -8px -8px 0px 0px #1F72AA75;
+    background-color: #adc8d1;
+    bottom: -10px;
+    right: -10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+    z-index: -1;
+}
+
+#sec3 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/56fe/900c/3373b978c26674d26d5c9d2dfec315ab?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lpTEZOx2kkDG-Ol0N1YneGInHjSvIjLi2jWln4t-1mpxx6DGre11D624t~9abcnIvdBV9bOidWA-~O~qmJgnBnM7wswFhJ8qKwIuJfLU6KWjXoc2faTJhhNBjLbvpqDEtn7Qj4nQPABaeZbYJb-YgRxSc7z5wljIxYEwjTAPSFiLQSHRuZLuw02UeHmuNSRqLN06ZKWukHghh8fzOYFpDIAJRUCzI7sAbZ3EM-zCp2m7zEFs0WhNBhJGrXIfGXcNccHWv2CBOCiQlotnUrVpVQppyZVkmNhaprybL31yiNOumfRbtkBN2~~X~fj97k7Pv0ai3NJMTODWWcFjr6POPA__);
+}
+
+.Destination-title {
+    height: 150px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.Dest-of-our-agency {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+#pack-your-bag {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    margin: 0 auto;
+}
+
+.sec3-card-1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0;
+}
+
+#card-1-id {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    margin: 0;
+}
+
+#sec3-div1 {
+    background-color: #EEE9D9;
+    width: 513px;
+    height: 70px;
+    margin-left: 40px;
+    border-radius: 120px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#sec3-div2 {
+    background-color: #8BB8C1CC;
+    width: 513px;
+    height: 70px;
+    margin-left: 40px;
+    border-radius: 120px;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#sec3-div3 {
+    background-color: #AAD8D7CC;
+    width: 513px;
+    height: 70px;
+    margin-left: 40px;
+    border-radius: 120px;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#sec3-div4 {
+    background-color: #8BC0BDCC;
+    width: 513px;
+    height: 70px;
+    margin-left: 40px;
+    border-radius: 120px;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#sec3-div5 {
+    background-color: #97CCE0CC;
+    width: 513px;
+    height: 70px;
+    margin-left: 40px;
+    border-radius: 120px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.card-1-id {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    height: 14px;
+    margin: 0;
+}
+
+div button {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 15px;
+    right: 10px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.but-style {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+#destination-card-div {
+    position: relative;
+}
+
+.destination-pic {
+    background-size: cover;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+
+#destination-pic-1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/7d8a/5e71/16010885e9b9cf404e7b21d9eda6fd49?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=F~cfkhJLtBP71Qy8cXSRZW3U4h~-pLOByBI2FRDBD7szuKSQ8-EJUZI7QPV5ZJY7QUmfvSqTWavY9jDJeNa3Pi-Fw9g0fJrGw9oXSMEDinrLNCy5CHwZxpWMsbqdiqy7GHUVtbOiPl62HU2oOaM2LaI9Axo9Ub3O-TsDQ1uc1n9EaqngztrlRzNVNwzpuxhHJ861MOJq0ZGvLisCtHpXqALB5N10Fru4hw13Wf3xWqHZ8oB4eR1aFdZkmUs4iHX2I21qjyp0EblUwHTJf3jQBr~4RTcWZ~9TQlS0Gqol0o3lpkoUwF1q5IN1EjUzA-M7bbArMJuxQHHxJz9ogsDE~w__);
+    top: 50px;
+    left: 600px;
+}
+
+#sec3-div1:hover #destination-pic-1 {
+    display: block;
+    border: 10px;
+    border-color: white;
+
+}
+
+#destination-pic-2 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/8f09/fa0d/d136f7ce9c71c9e1f9031385625fbe25?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fGDPNsNJx2QP7h82yXd9qZE9o0JdEbtTgOXRzWhuwSHhUykZxTZlL3iwrz7ucOdXjlYmzATybuTj5Fb6WlCb7rwv0I0N9R03qIiIee26E8dukFvAB7Ju1GyErLQ3X-NOrjiWzV5FAeTDuG9jsP2b~ZyXCBa~SXt6DqQbqnvwdZqv0wo8sgn66NPtd5EQ7hSOlZQOT38cEahobvhXwDXLnlThvJe4dBnKSofsmc-PeD4zk4SpYTBKPqbg1CQv6-7Un-dd8AMbpcVrZ9opktxjV1DIPCPGzWh1iJaz4Yrw~95pfZCoyOEEBM6sT~p4OACRyuY~VeOcbAiGKV7yt8dcqg__);
+    left: 850px;
+}
+
+#destination-pic-3 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/8820/a5c8/8b32e176586e22e170a49302cd4312c1?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oVwjUCAGU85M~e5F~mr5lvSE~NMFwivZ~tfkpfAMbXKdH9NZoAFshDR-Dl1RJdtAHRYubAJyHGxRxleFv-jb2wtBEeUpyuvwZjgITAqaaYDkmaio-mPo6Kv9ZVQSCEeVUiccQsF1yopjpbQWr9X6HD-ZzS4Sw1Q8n8BfK3bEvN-eGWu7D6TH6HjXSBKtmdypzFfSD6fX5D8enVk94ARVqn8NsdjLQ1xKmd8sPaM0To10VZqzmrcF-klCI22uu19-i8awJzGXDtv3j2VR3KAipAwINsOgEcilGYPyLqEXH8urzVcmgjTeRr5of913jEe2wbQJq6NHr3dg8lP7nbiwPQ__);
+    bottom: 40px;
+    left: 700px;
+}
+
+#destination-pic-4 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/b635/3498/5a1bc5ae5c2f51cc2bb4ca30b089e3a8?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jALx4aEwfBiP9YX30DQNL6rB6IotvQz3jYo2egNF6rctg5MHmy2poGxmOIVcaHjAsFCGaJfljL66l20ZaLMYGfvXG03guq8Lw-VB6XgzWAjtHjQsvpocuyfaWMQGxzhGaTs2dCoVtAUkH-Sjew2EZ~SpAefXN-6jvEz3UpfTzMA8EvB97uNfKC8ddrlS8cnToGsPj3owICYRjgKrdeqGUfnAt8YkbkmhhYq98neKpe2wNkxUGMKBtzdycMDLPAgrgiSY8DMbvbQG8~ej9zG7XZTX7FWJxXHHOTMn4hj4eZChFEfSkFiO2nvGxCz~NtDv4euzI-BHfjPB3z--x9JOiw__);
+    bottom: 10px;
+    left: 600px;
+}
+
+#destination-pic-5 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/abf7/b908/4f304b70834bf8724703cf382d2f4529?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OoWSrV~Nh4Wwgr8GZsp9NcT7eJbjnlR6ht3cSiVEQ64vHSycHderSnyZN4rLFDkTKTgz7ghDh~WCfc4qIaxFcG~Mj4SXneBpVBARAyTKbLTpIlsy7MkZjGMGjHrpg35W2ZGGqWKHxvdVMqG3W6i3Qq10ZjKmsmROMSwEHiivmhy9Za~wsn-onbHPxqO6EJH57KHPbrehFPRiGpZ-4Y3ZIlRBHe73aejAMRuz3iVW1VZUrc9ACydr-1A9-PUNeHphu~G7ncjJyz4SVHO3LMaXSDpI2hXs4diaddxYjhZtGvoZp9skDvoiWcAlEywN9HA9yXagDAIWcqHiQ1E599dQvw__);
+    bottom: 100px;
+    left: 800px;
+}
+
+#sec3-div2:hover #destination-pic-2 {
+    display: block;
+}
+
+#sec3-div3:hover #destination-pic-3 {
+    display: block;
+
+}
+
+#sec3-div4:hover #destination-pic-4 {
+    display: block;
+
+}
+
+#sec3-div5:hover #destination-pic-5 {
+    display: block;
+
+}
+
+.dest-card {
+    border: 10px;
+    border-color: transparent;
+}
+
+.pricing {
+    background: #9FC6DE;
+    height: 1000px;
+}
+
+.pricing-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-card {
+    background-color: white;
+    border-radius: 40px;
+    margin: 0;
+    border: 0;
+    width: 384px;
+    height: 527px;
+    position: relative;
+}
+
+.pricing-p {
+    font-weight: 600;
+    font-size: 18ox;
+    line-height: 21px;
+}
+
+.pricing-card-div {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.img-heart {
+    width: 50px;
+    height: auto;
+}
+
+.pricing-card-div-2 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.pricing-card-price {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+}
+
+.pricing-card-p2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.incudes {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 20px;
+}
