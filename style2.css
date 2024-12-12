@@ -384,7 +384,7 @@ div button {
     border-radius: 40px;
     margin: 0;
     border: 0;
-    width: 384px;
+    width: 334px;
     height: 527px;
     position: relative;
 }
@@ -427,6 +427,7 @@ div button {
     line-height: 19px;
     margin: 0;
     padding-top: 10px;
+    color: #919191;
 }
 
 .incudes {
@@ -434,4 +435,39 @@ div button {
     font-size: 18px;
     line-height: 21px;
     padding-top: 20px;
+    padding-left: 30px;
+}
+.info {
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.info-p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3F4145;
+}
+.c2 {
+    top: 290px;
+}
+.c3 {
+    top: 330px;
+}
+.c4 {
+    top: 370px;
+}
+.pricing-card-button {
+    background-color: #A4D1E2;
+    position: absolute;
+    top: 440px;
+    left: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 150px;
 }
