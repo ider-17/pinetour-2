@@ -45,7 +45,7 @@ header img {
 
 .section-1 {
 
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 40.27%), linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2)), url(Image.png);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 40.27%), linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2)), url(https://s3-alpha-sig.figma.com/img/7a7d/1dd1/098d2481fb0f847b6ba2c5d7bbe0db4b?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VmFriEqhVBHYrCSfHvGJAlBgmEs7gSbcsThzI8ScNWj~heVuTMVIB015eo3~~pkrKfBIlbch8YNEcZrjOF-UiWcYHbAO2BOz4xjr3MJmU4d4DvNgU1vsY5GTgBe70xH~g8AYao8ftYRCy5FsD6cshJ0jQnTcuNwuKdJbmapWjAUC1IxtHAiaiEF9YOa50g8H-Y60C4GQr42OGhF4foRzkP6hR115rFzVQGE0~FksaGE8ZOuID4ip6YF5M53R5rK6mc3QMONT9mvyaVZHlv3TdMmkJxzOKLGSJKgnyDZd0gV~R3OZqXvGaLflLIbIy8pj0vAC0TZsXuoPoQ64dqJjNQ__);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,22 +120,23 @@ h3 {
     justify-content: center;
     align-items: center;
     position: relative;
+    background-position: center;
 }
 
 #pic1 {
-    background-image: url(https://s3-alpha-sig.figma.com/img/9411/7af0/fae2d95b54ef6842a38934433c1d99d7?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j6YiKqaPVJ7vUcEjHiCk8V5APzkPes5eI7upqMvcN0CnFP1j7-Hh9GveYN~6h2O-gnh3y2YoUp1AmdTyzBZQTt7~tFsNqiOlYmFLqd14uNUROcJzWkwSlnNXZ2L0~LvU634vjuyQb~h-lAYMOZJpU7BnCmukya6gNWYQGqE3xfXPF9EPWYMETVdRbP2VbihH6hzi7ZLO0BpY9fLlFJJpZts17B6hOa8ssOdUQm~sPVvtOWlepE1icJcTMuYNlNUTqMgJykJAx8JOy3LpphzVFOWWh64QKoKOpFW2bTnVzAN19u~Et2TvhSpU2~4456PXvvkwuhZsHA2OsOwbrPcHfg__);
+    background-image: url(https://s3-alpha-sig.figma.com/img/9411/7af0/fae2d95b54ef6842a38934433c1d99d7?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H2IpamtxJLbt2h1I7CN-SqK-VA5KVkchffRwG71eGF52o~mzegg40BnbHrC6Qa74VC55C-H77UZXOPX7uYyZ4G3gJR2XBIAJrsI2tXKltEvDHJTt9tpShwPxw9Gm4vgvKOa--cXxIUU5TWhkC7LihZC9ShWLrc~CR4~rNQK3UlxMT72ymbRgaXpSpeIqE5BBmilusOzhF6M1ADE-1lF0EkE~xJJAgy3oNmcFC0UnIPTtyAdf8rwzfR~E0dc0sggHZ3xqsye2jfNueyxz07yxLY-kqd1sDkfgXpBI4w-sgNmK4EXEVLc00fc4oK5KD57CfINhfU4~izzC~~bkIeijxg__);
 }
 
 #pic2 {
-    background-image: url(https://s3-alpha-sig.figma.com/img/e124/d31b/4b7edc8a8926233d613c437affc8b621?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n~2fkiB1rZgiEdzCMha9Uo8-43DRcDCKmA-WBIUIDM~AsTGrws2kqku6K9nFBLdyenp~YpB-86R7PU5e0sZYZnropDZ1rNByXMOY3LBF8NslbdpzPeGpXMSLRXRtNFDvcGoOEImV8xCUtaHJAyu9K1~kC9F0ag~3SBYTlHYzozLFIEpoS5CPbpfhe7tKyjkwW5fhwd~BuOQxV2zs0x-edzcpr~tT0mCUly9NE30IZIG3KbwoT0Is5WhbgKpHQRQCrZDJ5PzBdlVeTpqV1Zy0ErgMPHJBkevID5~ucRYoSMMuRe2jekzqDylXxEtsLtcxNKP-qN0Wrxck-nxx68YTpQ__);
+    background-image: url(https://s3-alpha-sig.figma.com/img/e124/d31b/4b7edc8a8926233d613c437affc8b621?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MbGHAeVdqhTDoheuoIiHsCW7AE2Yk7exvdlYibx~SsTkaiOejXhRPEuxyANJfqcs0NCFpnuJ~psi5OI7Ce3~erIlzNkQEYBC-4-M0vA0fvfZ~Pf4PcbTnKWLqd9BmHWGz9R8pFOdQkO1oDREtSDs0nnVpu0XdQZfREgv8JqyVQFUatcXMpocL6Dp0WBGaS8shyMMO3qklmm-s-yxOoNuGzOEgLkZe7~fpNzuqU6r755UOShzsHYf0WhUf2Y6EnoULd8LDGsQ3Y1J-913LTceBhr-cf3MkeuuxPv4e9cQRy5Gh4ic9-HeoRg1vAly4lK9JGwEAzSPrmFzmqdWF~YPMQ__);
 }
 
 #pic3 {
-    background-image: url(https://s3-alpha-sig.figma.com/img/a4d6/0416/d42b9ac033e9ea4869926a93ad64d227?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GxyJ~y1qLLP~KhdsJkV9oleyKhANT0UUIOdLaOFMIwyeUSIQnMAivl41kfeRa0tJ5aDTPZM48hTZrEHaXa8M53y2PMX-zJT2BKp41jh6TrFU-tM3BuEn6grnjRp8ehbXVHlgB2GJwJ08YqBjBkpIEwM-LayF4EKXmXEfwGYRi6WkKhyJuA3mw7fjLZ0SHslRq4nt72J2z06N3KmIwXAScsOII-H5A9A9jPqHc4~5V0oICuQTaomQpfSxCfIJuGJL~U8aqm2-EztxZKX01ePx9d-05IWaTYoecYBtCCetDL~NjWVRWq8iYPe-xR-kg2WYsfSvmFCV39aUQjL28sbXVQ__);
+    background-image: url(https://s3-alpha-sig.figma.com/img/a4d6/0416/d42b9ac033e9ea4869926a93ad64d227?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bs7x5IxEDskmrNgwHwpqJxtJ8JjcjlWlA6i~nGjgDk4gSziLZ-yNeHh8bC6BpHmHQHsrcOxrAarKv3L3vBBYQBFsqlQ1lXLERSUrbg24AofEHJfaNBKzlGGOLXwzFxCP4RBpETg4o4RRq-U~Nbo2fCXTnTtjNKRHl49pBClvnHYhv-h7fOdNsc9o6k5NbyFDucPHHrv2ifG6szdzpIwerzoNRbNrtxVKxsoRnIQO6pM24FaaRXJNJxXlsZKz2u-UV7k9cMOGr90HKCvWADtYf43LXzLMXsTgipXuuielX0dhBjRJl82FzMw20yz3Sm2m7tj~meRz18pHC9EXf8apzA__);
 }
 
 #pic4 {
-    background-image: url(https://s3-alpha-sig.figma.com/img/d2b9/7a2b/78cccaa3f6ec592813187ea25729681e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HL8whnhAzG46qIxI9tolF~eTqvoqIjC1hsj7~YHC2lnOYnNpcGXHx~wDCbnvNtdz7C0La8zO7P1nv2bAtYhX1WBP~Vw5sGTcIKr1pebPiElvAw~uysK3GAGoAMITSBygflFHSSiQ95eVd6RAjDmKwDt~soL18PDfo0MXGY90i-i15wwnmtctbiIseUbxCvGuzJzgXxWq06pbeNwd9RjE9ckdE3w9kXRbmKCED58cPmar27niBiun0zEakVJynPNaIynC7aYRoIbocEHwnVfzHkwAfGdJnkHcv7fw5IYG82orHRIVpwt7AFb8h7f2E1pu9GD9DXOSHAhDPS4Lzo0Gzw__);
+    background-image: url(https://s3-alpha-sig.figma.com/img/d2b9/7a2b/78cccaa3f6ec592813187ea25729681e?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JfaeCg5oyUtY3ibc1rv4r~3xRlnPAsluETBXBEbjg9U8iuGTg1mJBHCKzfdDl1itk3uHIspo3I-qvveinidi0CZXcZNhP9CRhlg~VO5XZr5V4NFa10H-x~LRm7mH8q~3HwlU3c7Ap3BnsFCKVbT-FEOCHpUt0KaiCB1nLVQ9qGwutUD6JgPgMTG2aZetrlveH-upr5R6SgAq7HD94ppLZw4a2N~hOdsuNw1G6cTIg1~bjqT09JWWNQVpHrZtc69HFIQ-BsMshO3wuhb6GX6aGCfhYAwYYHUdIgBj2zYKqA8F7zTbObesI7kp4HsTt4uvhuc8BAI-txKVeUPBle-MMg__);
 }
 
 .border1 {
@@ -164,6 +165,7 @@ h3 {
 
 #sec3 {
     background-image: url(https://s3-alpha-sig.figma.com/img/56fe/900c/3373b978c26674d26d5c9d2dfec315ab?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lpTEZOx2kkDG-Ol0N1YneGInHjSvIjLi2jWln4t-1mpxx6DGre11D624t~9abcnIvdBV9bOidWA-~O~qmJgnBnM7wswFhJ8qKwIuJfLU6KWjXoc2faTJhhNBjLbvpqDEtn7Qj4nQPABaeZbYJb-YgRxSc7z5wljIxYEwjTAPSFiLQSHRuZLuw02UeHmuNSRqLN06ZKWukHghh8fzOYFpDIAJRUCzI7sAbZ3EM-zCp2m7zEFs0WhNBhJGrXIfGXcNccHWv2CBOCiQlotnUrVpVQppyZVkmNhaprybL31yiNOumfRbtkBN2~~X~fj97k7Pv0ai3NJMTODWWcFjr6POPA__);
+    height: 80vh;
 }
 
 .Destination-title {
@@ -316,7 +318,6 @@ div button {
 
 #sec3-div1:hover #destination-pic-1 {
     display: block;
-    border: 10px;
     border-color: white;
 
 }
@@ -363,8 +364,28 @@ div button {
 
 }
 
+#sec3-div1:hover {
+    border-color: white;
+}
+
+#sec3-div2:hover {
+    border-color: white;
+}
+
+#sec3-div3:hover {
+    border-color: white;
+}
+
+#sec3-div4:hover {
+    border-color: white;
+}
+
+#sec3-div5:hover {
+    border-color: white;
+}
+
 .dest-card {
-    border: 10px;
+    border: 3px solid;
     border-color: transparent;
 }
 
@@ -470,4 +491,30 @@ div button {
     justify-content: center;
     align-items: center;
     padding: 20px 150px;
+}
+
+.fb {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+.fb :first-child {
+    left: 40px;
+}
+
+.fb :last-child {
+    left: 200px;
+}
+.info-size {
+    background-color: white;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: auto;
+    border-radius: 20px;
 }
